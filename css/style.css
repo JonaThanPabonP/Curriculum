@@ -8,6 +8,7 @@ body {
   font-size: 45px;
   line-height: 2;
   margin-bottom: 20px;
+  border-bottom: 4px solid #ff6b08;
 }
 
 .bio-occupation {
@@ -205,3 +206,4 @@ body {
 .skills {
   padding-left: 40px;
 }
+
