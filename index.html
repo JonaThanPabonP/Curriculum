@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/5dce38034f.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
@@ -15,9 +16,9 @@
     <div class="container">
       <!-- LEFT SIDE -->
       <aside class="left-side">
-        <img src="./img/foto.jpg" alt="My photo" width="370" class="photo" />
+        <div class="photo-container"><img src="./img/foto.jpg" class="photo"/></div>
         <section class="contacts">
-          <h2>Contacts</h2>
+          <h2><i class="fa-solid fa-mobile-screen"></i> Contacts</h2>
           <ul>
             <li>
               Phone:
@@ -34,7 +35,7 @@
           </ul>
         </section>
         <section class="skills">
-          <h2 class="skills-title">Tech skills</h2>
+          <h2 class="skills-title"><i class="fa-solid fa-laptop-code"></i> Tech skills</h2>
 
           <ul class="skills-list">
             <li class="skills-item">HTML</li>
@@ -48,7 +49,7 @@
           </ul>
         </section>
         <section class="skills">
-          <h2 class="skills-title">Soft skills</h2>
+          <h2 class="skills-title"><i class="fa-solid fa-handshake-simple"></i> Soft skills</h2>
 
           <ul class="skills-list">
             <li class="skills-item">Scrum</li>
@@ -58,27 +59,33 @@
           </ul>
         </section>
         <section class="skills">
-          <h2 class="skills-title">Languages</h2>
+          <h2 class="skills-title"><i class="fa-solid fa-language"></i> Languages</h2>
 
           <ul class="skills-list">
             <li class="skills-item">Spanish: Native</li>
             <li class="skills-item">English: Level B1</li>
           </ul>
         </section>
+        <div class="info-icons">
+          <a href="https://github.com/JonaThanPabonP" class="icons-link"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jonathanpabonprieto/" class="icons-link"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.link/ff4k1e" class="icons-link"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
       </aside>
       <!-- RIGHT SIDE -->
       <div class="right-side">
         <section class="bio">
           <h1 class="bio-title">Jonathan Pabón Prieto</h1>
-          <h4 class="bio-occupation">Front-end developer</h4>
+          <h4 class="bio-occupation">Web & software developer</h4>
           <p class="bio-about">
             Electronical engeenier from Universidad Industrial de Santander. Knowledge in some programming languages like C++, C#, Python, JavaScript and Java. HTML and CSS to develop web pages getting solutions to client requests.
+            Using Netbeans for software construction.
           </p>
         </section>
         <section class="projects">
-          <h2 class="projects-title">Projects</h2>
+          <h2 class="projects-title"><i class="fa-solid fa-folder-open"></i> Projects</h2>
 
-          <ol>
+          <ul>
             <li>
               <a href="https://jonathan-pabon-cv.netlify.app/" class="projects-link">
                 Resume - Curriculum Vitae
@@ -88,19 +95,19 @@
           </ol>
         </section>
         <section class="jobs">
-          <h2 class="jobs-title">Work experience</h2>
+          <h2 class="jobs-title"><i class="fa-solid fa-arrow-up-right-dots"></i> Work experience</h2>
 
           <h3 class="jobs-occupation">
             Front-end developer at <span class="accent">Freelance</span>
           </h3>
           <p class="jobs-time">January 2021 - up to now</p>
           <ul class="experience">
-            <li class="experience-item">HTML, CSS, JavaScript</li>
+            <li class="experience-item">HTML, CSS - Bootstrap, JavaScript</li>
           </ul>
 
           <h3 class="jobs-occupation">
             Informatics & Thecnology Teacher at<span class="accent">
-              Colegio La Presentación, Bucaramanga</span
+              Colegio La Presentación de Bucaramanga</span
             >
           </h3>
           <p class="jobs-time">July 2021 - up to now</p>
@@ -113,23 +120,24 @@
               Mobile Apps development using App Inventor.
             </li>
           </ul>
+          <div class="more">
+            <a href="#" class="more-link"><i class="fa-solid fa-plus"></i> More</a>
+          </div>
         </section>
         <section class="education">
-          <h2 class="education-title">Education</h2>
+          <h2 class="education-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
 
           <h3 class="education-degree">
             Electronic Engeeniering at
-            <span class="accent">Universidad Industrial de Santander</span>
+            <a href="https://uis.edu.co/" class="accent">Universidad Industrial de Santander</a>
           </h3>
           <p class="education-time">Julio 2012 - Abril 2021</p>
           <h3 class="education-degree">
-            Front-end Developer <span class="accent">GoIT Courses</span>
+            Front-end Developer <a href="https://goit.global/us/" class="accent">GoIT Courses</a>
           </h3>
           <p class="education-time">February 2022</p>
           <h3 class="education-degree">
-            Programming Languages Diploma at<span class="accent">
-              Misión TIC 2022</span
-            >
+            Programming Languages Diploma at <a href="https://www.misiontic2022.gov.co/portal/" class="accent">Misión TIC 2022</a>
           </h3>
           <p class="education-time">April 2021 - December 2021</p>
           <ul>
@@ -139,9 +147,7 @@
             <li class="education-item">Web Development.</li>
           </ul>
           <h3 class="education-degree">
-            Web Development with Django at<span class="accent">
-              Fundación Universitaria Comfenalco - Santander</span
-            >
+            Web Development with Django at <a href="https://www.unc.edu.co/" class="accent">Fundación Universitaria Comfenalco - Santander</a>
           </h3>
           <p class="education-time">March 2022 - May 2022</p>
           <ul>
@@ -150,6 +156,9 @@
             <li class="education-item">Django projects and apps (Models, Views).</li>
             <li class="education-item">Deploy on Pythonanywhere.</li>
           </ul>
+          <div class="more">
+            <a href="#" class="more-link"><i class="fa-solid fa-plus"></i> More</a>
+          </div>
         </section>
       </div>
     </div>
